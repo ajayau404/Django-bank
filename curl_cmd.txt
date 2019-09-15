@@ -1,0 +1,10 @@
+curl -X POST -d "username=ajayau&password=IAmR00t#2019" http://localhost:8000/api/auth/login/
+
+
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1Njg1NjU2NDcsInVzZXJfaWQiOjEsInVzZXJuYW1lIjoiYWpheWF1IiwiZW1haWwiOiJhamF5YXU1MDBAZ21haWwuY29tIn0.bDlDN_7_qW2jfDSRXzWLo35xMN1ygJ4lmu-fLys5ffM"}
+
+
+curl -H "Authorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1Njg1NjU2NDcsInVzZXJfaWQiOjEsInVzZXJuYW1lIjoiYWpheWF1IiwiZW1haWwiOiJhamF5YXU1MDBAZ21haWwuY29tIn0.bDlDN_7_qW2jfDSRXzWLo35xMN1ygJ4lmu-fLys5ffM" http://127.0.0.1:8000/bank_d/ifsc/ABHY0065001
+
+
+curl -H "Authorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1Njg1NjU2NDcsInVzZXJfaWQiOjEsInVzZXJuYW1lIjoiYWpheWF1IiwiZW1haWwiOiJhamF5YXU1MDBAZ21haWwuY29tIn0.bDlDN_7_qW2jfDSRXzWLo35xMN1ygJ4lmu-fLys5ffM" http://127.0.0.1:8000/bank_d/branches/ABHYUDAYA%20COOPERATIVE%20BANK%20LIMITED/MUMBAI?limit=1

@@ -1,0 +1,8 @@
+Django super user:
+Username: ajayau
+email: ajayau500@gmail.com
+Password : IAmR00t#2019
+
+
+postgres role :
+psql -h localhost -U postgres -W
